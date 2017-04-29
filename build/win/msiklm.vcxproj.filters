@@ -15,24 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\components\MSIKLM\src\msiklm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="..\..\components\MSIKLM\src\main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\components\MSIKLM\src\main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\components\MSIKLM\src\msiklm.c">
+    <ClCompile Include="..\..\components\MSIKLM\src\msiklm.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
