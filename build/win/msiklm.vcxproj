@@ -150,9 +150,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\components\MSIKLM\src\msiklm.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\components\MSIKLM\src\main.c" />
     <ClCompile Include="..\..\components\MSIKLM\src\msiklm.c" />
   </ItemGroup>
@@ -160,6 +157,9 @@
     <ProjectReference Include="hidapi.vcxproj">
       <Project>{a107c21c-418a-4697-bb10-20c3aa60e2e4}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\components\MSIKLM\src\msiklm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
