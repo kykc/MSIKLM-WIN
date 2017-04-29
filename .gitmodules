@@ -1,0 +1,3 @@
+[submodule "components/MSIKLM"]
+	path = components/MSIKLM
+	url = https://github.com/kykc/MSIKLM
